@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-Jogame", "API-Jogame.csproj", "{EBAD5E4C-964E-47A7-A0F8-8EEFED7A9C34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBAD5E4C-964E-47A7-A0F8-8EEFED7A9C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBAD5E4C-964E-47A7-A0F8-8EEFED7A9C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBAD5E4C-964E-47A7-A0F8-8EEFED7A9C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBAD5E4C-964E-47A7-A0F8-8EEFED7A9C34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBE614F6-3360-4CF0-BE8C-0E7DBAC1FFCE}
+	EndGlobalSection
+EndGlobal
