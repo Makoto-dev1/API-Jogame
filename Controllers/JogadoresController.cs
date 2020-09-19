@@ -36,10 +36,14 @@ namespace API_Jogame.Controllers
                 //Caso exista retorna "ok" e os jogadores
                 return Ok(jogadores);
             }
-            catch (Exception ex)
+            catch (Exception) 
             {
                 //caso ocorra algum erro retorna mensagem de erro 
-                return BadRequest(ex.Message);
+                return BadRequest(new
+                {
+                    stausCode = 400,
+                    error = "Ocorreu um erro no endpoint Get/produtos, envie um email para email@gmail.com informando"
+                });
             }
         }
 

@@ -11,5 +11,8 @@ namespace API_Jogame.Domains
         public string Email { get; set; }
         public string Senha { get; set; }
         public DateTime DataNascimento { get; set; }
+
+        //Relacionamento com a tabela JogoJogador
+        public List<JogoJogador> JogosJogadores { get; set; }
     }
 }

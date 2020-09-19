@@ -18,5 +18,6 @@ namespace API_Jogame.Domains
         [ForeignKey("IdJogador")]
 
         public Jogador Jogador { get; set; }
+        
     }
 }

@@ -6,16 +6,18 @@ using System.Threading.Tasks;
 
 namespace API_Jogame.Interfaces
 {
-    interface IJogoRepository
+    public interface IJogoRepository
     {
-        public Jogo Cadastrar();
+        /// <summary>
+        /// Cadastra um jogo
+        /// </summary>
+        /// <param name="jogosJogadores">Jogos</param>
+        /// <returns>Jogo cadastrado</returns>
+        Jogo Cadastrar(List<JogoJogador> jogosJogadores);
 
-        public Jogo Alterar();
+        Jogo BuscarPorId(Guid id);
 
-        public Jogo BuscarPorId();
-
-        public void Deletar();
-
-        public List<Jogo> Listar();
+        List<Jogo> Listar();
+        
     }
 }
